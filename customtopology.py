@@ -11,7 +11,7 @@ def custom_tree_topology():
     ryu_controller = net.addController(
         'ryuController',
         controller=RemoteController,
-        ip='127.0.0.1',  # IP address of the machine running the Ryu controller
+        ip='192.168.233.129',  # IP address of the machine running the Ryu controller
         port=6633  # Default OpenFlow port
     )
 
